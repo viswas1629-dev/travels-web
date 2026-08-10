@@ -58,8 +58,8 @@ h3{font-size:1.35rem}
 .logo{display:flex;align-items:center;gap:11px;font-family:Poppins;font-weight:800;font-size:1.25rem}
 .logo-mark{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--primary),var(--teal));color:#fff;box-shadow:0 9px 20px rgba(11,92,255,.22)}
 .logo span span{color:var(--primary)}
-.nav-links{display:flex;align-items:center;gap:5px}
-.nav-links a{padding:10px 11px;font-weight:700;font-size:.9rem;border-radius:10px}
+.nav-links{display:flex;align-items:center;gap:8px}
+.nav-links a{padding:10px 14px;font-weight:700;font-size:.92rem;border-radius:10px}
 .nav-links a:hover,.nav-links a.active{color:var(--primary);background:#edf4ff}
 .nav-cta{display:flex;align-items:center;gap:8px}
 .menu-toggle{display:none;border:0;background:transparent;font-size:1.6rem;color:var(--ink)}

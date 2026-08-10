@@ -74,7 +74,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const href = link.getAttribute("href");
     if (href === current) link.classList.add("active");
     if (current === "package-details.html" && href === "packages.html") link.classList.add("active");
+    if (current === "contact.html" && href === "about.html") link.classList.add("active");
   });
+
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {

@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="About Us | Madurai Travelss — Madurai travel packages, taxi and hotel enquiry services.">
-<title>About Us | Madurai Travelss</title>
+<meta name="description" content="About Us & Contact | Madurai Travelss — Madurai travel packages, taxi and hotel enquiry services.">
+<title>About Us & Contact | Madurai Travelss</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,12 +15,9 @@
     <nav class="nav-links" aria-label="Primary navigation">
       <a href="index.html">Home</a>
       <a href="packages.html">Packages</a>
-      <a href="services.html">Services</a>
       <a href="taxi.html">Taxi</a>
       <a href="hotels.html">Hotels</a>
-      <a href="reviews.html">Reviews</a>
       <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
     </nav>
     <div class="nav-cta"><button class="btn btn-whatsapp btn-small" data-general-whatsapp>WhatsApp</button></div>
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
@@ -28,13 +25,41 @@
 </header>
 
 <main>
-<section class="page-hero"><div class="container"><span class="eyebrow">About us</span><h1>Your journey starts with a clear plan.</h1><p class="lead">A simple, customer-first travel service built around easy package discovery and direct support.</p></div></section>
+<section class="page-hero"><div class="container"><span class="eyebrow">About Us & Contact</span><h1>Your journey starts with a clear plan.</h1><p class="lead">A simple, customer-first travel service built around easy package discovery and direct support.</p></div></section>
+
 <section class="section">
   <div class="container grid grid-2">
     <div><span class="eyebrow">Our story</span><h2>Travel should feel simple, not confusing.</h2><p class="lead" style="margin-top:15px">We help travellers discover destinations, understand package details and connect directly with the travel team for availability and pricing.</p><p class="muted" style="margin-top:15px">This content is intentionally editable because the client's final business story, experience and company details have not yet been provided.</p></div>
     <div class="card" style="padding:28px"><h3>What we focus on</h3><ul class="check-list" style="margin-top:16px"><li>Clear tour package information</li><li>Comfortable travel arrangements</li><li>Direct WhatsApp support</li><li>Customer-friendly service</li><li>Simple enquiry process</li></ul></div>
   </div>
 </section>
+
+<section id="contact" class="section feature-band">
+  <div class="container grid grid-2">
+    <div>
+      <span class="eyebrow">Get in touch</span>
+      <h2>Tell us what you need.</h2>
+      <p class="lead" style="margin-top:14px">For package availability, pricing, taxi service or hotel booking, send us an enquiry or chat on WhatsApp.</p>
+      <div class="grid" style="margin-top:28px;gap:14px">
+        <div class="feature"><div class="feature-icon">☎</div><div><strong>Phone</strong><p class="muted" data-phone>+91 99999 99999</p></div></div>
+        <div class="feature"><div class="feature-icon">✉</div><div><strong>Email</strong><p class="muted" data-email>hello@maduraitravelss.com</p></div></div>
+        <div class="feature"><div class="feature-icon">📍</div><div><strong>Location</strong><p class="muted" data-location>Madurai, Tamil Nadu, India</p></div></div>
+      </div>
+    </div>
+    <form class="form-card card" onsubmit="event.preventDefault(); contactFormWhatsApp(this);">
+      <div class="form-grid">
+        <div class="field"><label for="name">Name</label><input id="name" name="name" required placeholder="Your name"></div>
+        <div class="field"><label for="phone">Phone Number</label><input id="phone" name="phone" required placeholder="Your phone number"></div>
+        <div class="field"><label for="destination">Travel Destination</label><input id="destination" name="destination" required placeholder="e.g. Ooty"></div>
+        <div class="field"><label for="date">Travel Date</label><input id="date" name="date" type="date"></div>
+        <div class="field"><label for="people">Number of People</label><input id="people" name="people" type="number" min="1" placeholder="e.g. 4"></div>
+        <div class="field full"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us about your travel requirements"></textarea></div>
+        <div class="field full"><button class="btn btn-whatsapp" type="submit">Send Enquiry on WhatsApp →</button></div>
+      </div>
+    </form>
+  </div>
+</section>
+
 <section class="section-sm"><div class="container"><div class="cta"><div class="cta-content"><div><h2>Let's plan your journey.</h2><p>Tell us where you want to go.</p></div><button class="btn btn-light" data-general-whatsapp>Chat on WhatsApp</button></div></div></div></section>
 </main>
 
@@ -50,7 +75,7 @@
         <div class="footer-title">Explore</div>
         <ul class="footer-links">
           <li><a href="packages.html">Tour Packages</a></li>
-          <li><a href="services.html">Services</a></li>
+          <li><a href="index.html#services">Services</a></li>
           <li><a href="hotels.html">Hotels</a></li>
           <li><a href="taxi.html">Taxi Service</a></li>
         </ul>
@@ -59,8 +84,8 @@
         <div class="footer-title">Company</div>
         <ul class="footer-links">
           <li><a href="about.html">About Us</a></li>
-          <li><a href="reviews.html">Reviews</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html#reviews">Reviews</a></li>
+          <li><a href="about.html#contact">Contact</a></li>
         </ul>
       </div>
       <div>
