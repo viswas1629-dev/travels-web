@@ -264,7 +264,7 @@ footer a:hover{color:#fff}
 .hero-banner-img{
   position:absolute;
   inset:0;
-  background:url("../assets/images/summa-mdu.webp") center center / cover no-repeat;
+  background:url("../assets/images/chat-mdu2.webp") center center / cover no-repeat;
   opacity:0;
   transform:translateY(70px) scale(1.03);
   will-change:transform, opacity;

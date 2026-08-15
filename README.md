@@ -44,7 +44,7 @@ No build step or npm installation is required.
 ## Client Banner
 
 The exact uploaded client banner is used at:
-`assets/images/summa-mdu.webp`
+`assets/images/chat-mdu2.webp`
 
 Detected source dimensions: 1536 × 1024 px (3:2).
 The homepage hero uses the same 3:2 aspect ratio so the artwork is not vertically cropped or stretched.
