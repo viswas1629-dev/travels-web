@@ -16,23 +16,23 @@ const SITE_CONFIG = {
 // ======================================================
 const PACKAGES = [
   {
-    id: "ooty",
-    name: "Ooty Tour Package",
-    duration: "3 Days / 2 Nights",
+    id: "Trivandrum",
+    name: "Madurai to Trivandrum",
+    duration: "5 Days / 4 Nights",
     price: "Contact for Price",
-    image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=85",
-    short: "Explore Ooty's beautiful hills, lakes, gardens and popular sightseeing spots.",
-    description: "A comfortable hill-station trip designed for travellers who want to explore Ooty with a simple, well-organized itinerary.",
-    highlights: ["Ooty Lake", "Botanical Garden", "Doddabetta Peak", "Tea Gardens"],
+    image: "https://media.istockphoto.com/id/113553219/photo/trivandrum-temple-kerala-india.jpg?s=612x612&w=0&k=20&c=aki61RESJLLOV-hqkk1jYg5_mLWIZim7GvtIudkYIrA=",
+    short: "Explore Trivandrum’s rich culture, historic landmarks, beautiful beaches, and peaceful charm.",
+    description: "Discover Trivandrum, Kerala’s charming capital, known for its beautiful beaches, historic landmarks, rich culture, and serene surroundings.",
     itinerary: [
-      ["Day 01", "Arrival in Ooty and local sightseeing."],
-      ["Day 02", "Full-day sightseeing covering major attractions."],
-      ["Day 03", "Checkout, final sightseeing and return journey."]
+      ["Day 01", "Madurai"],
+      ["Day 02", "Rameswaram"],
+      ["Day 03", "Kanyakumari"],
+      ["Day 04", "Trivandrum"],
+      ["Day 05", " Trivandrum Drop"]
     ],
     pickup: "Madurai",
-    destination: "Ooty",
+    destination: "Trivandrum",
     vehicle: "Based on group size",
-    accommodation: "Hotel stay",
     inclusions: ["Travel assistance", "Sightseeing", "Accommodation"],
     exclusions: ["Personal expenses", "Additional activities", "Anything not mentioned"],
     notes: ["Final itinerary may be adjusted based on weather, road conditions and customer requirements."]
@@ -45,7 +45,6 @@ const PACKAGES = [
     image: "https://images.unsplash.com/photo-1593693411515-c20261bcad6e?auto=format&fit=crop&w=1000&q=85",
     short: "Enjoy the cool climate, scenic viewpoints, lake and natural beauty of Kodaikanal.",
     description: "A compact getaway to Kodaikanal for families, couples and small groups looking for a refreshing hill-station experience.",
-    highlights: ["Kodaikanal Lake", "Coaker's Walk", "Pillar Rocks", "Scenic Viewpoints"],
     itinerary: [
       ["Day 01", "Arrival and local sightseeing around Kodaikanal."],
       ["Day 02", "Morning sightseeing, checkout and return journey."]
@@ -53,7 +52,6 @@ const PACKAGES = [
     pickup: "Madurai",
     destination: "Kodaikanal",
     vehicle: "Based on group size",
-    accommodation: "Hotel stay",
     inclusions: ["Travel assistance", "Sightseeing", "Accommodation"],
     exclusions: ["Personal expenses", "Additional activities", "Anything not mentioned"],
     notes: ["Final itinerary may be adjusted according to weather and road conditions."]
@@ -66,7 +64,6 @@ const PACKAGES = [
     image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1000&q=85",
     short: "Discover tea estates, misty mountains and peaceful viewpoints in Munnar.",
     description: "A scenic Munnar trip designed around nature, comfortable travel and popular sightseeing experiences.",
-    highlights: ["Tea Estates", "Mattupetty Dam", "Echo Point", "Mountain Views"],
     itinerary: [
       ["Day 01", "Journey to Munnar and arrival."],
       ["Day 02", "Full-day local sightseeing."],
@@ -75,7 +72,6 @@ const PACKAGES = [
     pickup: "Madurai",
     destination: "Munnar",
     vehicle: "Based on group size",
-    accommodation: "Hotel stay",
     inclusions: ["Travel assistance", "Sightseeing", "Accommodation"],
     exclusions: ["Personal expenses", "Additional activities", "Anything not mentioned"],
     notes: ["Exact sightseeing order can be modified based on conditions and customer preferences."]
@@ -88,14 +84,12 @@ const PACKAGES = [
     image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=85",
     short: "Explore Madurai's cultural highlights and local attractions with comfortable travel.",
     description: "A simple local sightseeing option for visitors who want to explore important places in and around Madurai.",
-    highlights: ["Meenakshi Amman Temple Area", "Local Attractions", "Cultural Spots", "City Sightseeing"],
     itinerary: [
       ["Day 01", "Pickup, local sightseeing and drop-off."]
     ],
     pickup: "Madurai",
     destination: "Madurai",
     vehicle: "Based on group size",
-    accommodation: "Not applicable",
     inclusions: ["Travel assistance", "Local sightseeing"],
     exclusions: ["Personal expenses", "Entry tickets", "Anything not mentioned"],
     notes: ["Temple and attraction entry rules should be confirmed before travel."]

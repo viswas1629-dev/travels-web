@@ -13,9 +13,6 @@ function packageCard(pkg) {
           <strong>${pkg.price}</strong>
         </div>
         <p>${pkg.short}</p>
-        <ul class="check-list">
-          ${pkg.highlights.slice(0,3).map(item => `<li>${item}</li>`).join("")}
-        </ul>
         <div class="card-actions">
           <a class="btn btn-primary btn-small" href="package-details.html?id=${pkg.id}">View Full Details</a>
           <button class="btn btn-whatsapp btn-small" onclick='packageWhatsApp(${JSON.stringify(pkg).replace(/'/g,"&#39;")})'>WhatsApp</button>

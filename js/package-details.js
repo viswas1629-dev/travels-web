@@ -34,13 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
 
         <section class="detail-section">
-          <h2>Trip Highlights</h2>
-          <ul class="check-list">
-            ${pkg.highlights.map(item => `<li>${item}</li>`).join("")}
-          </ul>
-        </section>
-
-        <section class="detail-section">
           <h2>Itinerary</h2>
           <div class="timeline">
             ${pkg.itinerary.map(day => `
@@ -59,11 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="info-item"><span>Destination</span><strong>${pkg.destination}</strong></div>
             <div class="info-item"><span>Vehicle</span><strong>${pkg.vehicle}</strong></div>
           </div>
-        </section>
-
-        <section class="detail-section">
-          <h2>Accommodation</h2>
-          <p class="muted">${pkg.accommodation}</p>
         </section>
 
         <section class="detail-section">
