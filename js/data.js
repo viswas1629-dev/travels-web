@@ -1,14 +1,13 @@
-
 // ======================================================
 // CLIENT SETTINGS — EDIT THESE DETAILS
 // ======================================================
 const SITE_CONFIG = {
   businessName: "Madurai Travelss",
-  whatsappNumber: "916381793062", // Replace with client's WhatsApp number, country code + number, no +
-  phone: "+91 99999 99999",
-  email: "hello@maduraitravelss.com",
+  whatsappNumber: "+91 94980 40182", // Replace with client's WhatsApp number, country code + number, no +
+  phone: "+91 94980 40182",
+  email: "newmaduraitravels@gmail.com",
   location: "Madurai, Tamil Nadu, India",
-  heroImage: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2000&q=85"
+  heroImage: "assets/images/hero-img.webp"
 };
 
 // ======================================================
@@ -20,7 +19,7 @@ const PACKAGES = [
     name: "Madurai to Trivandrum",
     duration: "5 Days / 4 Nights",
     price: "Contact for Price",
-    image: "https://media.istockphoto.com/id/113553219/photo/trivandrum-temple-kerala-india.jpg?s=612x612&w=0&k=20&c=aki61RESJLLOV-hqkk1jYg5_mLWIZim7GvtIudkYIrA=",
+    image: "assets/images/Trivandrum-mdu.webp",
     short: "Explore Trivandrum’s rich culture, historic landmarks, beautiful beaches, and peaceful charm.",
     description: "Discover Trivandrum, Kerala’s charming capital, known for its beautiful beaches, historic landmarks, rich culture, and serene surroundings.",
     itinerary: [
@@ -42,7 +41,7 @@ const PACKAGES = [
     name: "Kodaikanal Tour Package",
     duration: "2 Days / 1 Night",
     price: "Contact for Price",
-    image: "https://images.unsplash.com/photo-1593693411515-c20261bcad6e?auto=format&fit=crop&w=1000&q=85",
+    image: "assets/images/kodai-img.webp",
     short: "Enjoy the cool climate, scenic viewpoints, lake and natural beauty of Kodaikanal.",
     description: "A compact getaway to Kodaikanal for families, couples and small groups looking for a refreshing hill-station experience.",
     itinerary: [
@@ -61,7 +60,7 @@ const PACKAGES = [
     name: "Munnar Tour Package",
     duration: "3 Days / 2 Nights",
     price: "Contact for Price",
-    image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1000&q=85",
+    image: "assets/images/mun-img.webp",
     short: "Discover tea estates, misty mountains and peaceful viewpoints in Munnar.",
     description: "A scenic Munnar trip designed around nature, comfortable travel and popular sightseeing experiences.",
     itinerary: [
@@ -81,7 +80,7 @@ const PACKAGES = [
     name: "Madurai Local Package",
     duration: "1 Day",
     price: "Contact for Price",
-    image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=85",
+    image: "assets/images/mdu-tem.webp",
     short: "Explore Madurai's cultural highlights and local attractions with comfortable travel.",
     description: "A simple local sightseeing option for visitors who want to explore important places in and around Madurai.",
     itinerary: [
